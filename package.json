@@ -1,0 +1,17 @@
+{
+  "name": "lopza",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify": "terser src/lopza.js -o lopza.min.js" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "csso-cli": "^4.0.2",
+    "terser": "^5.39.0"
+  }
+}

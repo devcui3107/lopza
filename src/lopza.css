@@ -1,0 +1,195 @@
+/* ================ */
+.my-sli2 {
+  position: relative;
+  width: 100%;
+}
+
+.my-sli2 .lz__gallery {
+  overflow: hidden;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.my-sli2 .lz__views {
+  display: flex;
+  /* flex-direction: column; */
+  overflow: visible;
+  transition: transform 0.5s ease;
+  /* height: 100%; */
+  border-radius: 20px;
+  /* width: 100%; */
+}
+
+.my-sli2 .lz__view {
+  min-width: 100%; /* Mỗi slide chiếm toàn bộ chiều ngang */
+  min-height: 100%; /* Mỗi slide chiếm toàn bộ chiều dọc */
+  border-radius: 20px;
+  /* flex-shrink: 0; */
+}
+
+.my-sli2 .lz__content {
+  position: absolute;
+  z-index: 1;
+  left: 50px;
+  top: 50px;
+  width: 300px;
+}
+
+.my-sli2 .lz__view--img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.my-sli2 .lz__ctrl {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  padding: 0 10px;
+  width: auto;
+  font-size: 2rem;
+}
+
+.my-sli2 .lz__btn {
+  background-color: rgb(53 213 3 / 50%);
+  color: #fff;
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+}
+
+.my-sli2 .lz__dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  width: auto;
+  background: transparent;
+}
+
+/* Dot */
+.my-sli2 .lz__dot {
+  width: 12px;
+  height: 12px;
+  background-color: #0991a0;
+  border-radius: 50%;
+}
+
+.my-sli2 .lz__dot.active {
+  background-color: #caeff3;
+  cursor: auto;
+}
+
+/* Number */
+.my-sli2 .lz__number {
+  width: 20px;
+  height: 20px;
+  background-color: #0991a0;
+  border-radius: 3px;
+  font-size: 1.4rem;
+}
+
+.my-sli2 .lz__number.active {
+  background-color: #caeff3;
+  cursor: auto;
+}
+
+/* =============== */
+.my-sli3 {
+  position: relative;
+  width: 100%;
+}
+
+.my-sli3 .lz__gallery {
+  overflow: hidden;
+  height: 100%;
+}
+
+.my-sli3 .lz__views {
+  display: flex;
+  /* flex-direction: column; */
+  overflow: visible;
+  transition: transform 0.5s ease;
+  /* height: 100%; */
+}
+
+.my-sli3 .lz__view {
+  min-width: 100%; /* Mỗi slide chiếm toàn bộ chiều ngang */
+  min-height: 100%; /* Mỗi slide chiếm toàn bộ chiều dọc */
+  text-align: center;
+  background: green;
+}
+
+.my-sli3 .lz__view--img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.my-sli3 .lz__ctrl {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  padding: 0 10px;
+  width: auto;
+  font-size: 2rem;
+}
+
+.my-sli3 .lz__btn {
+  background-color: rgb(53 213 3 / 50%);
+  color: #fff;
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+}
+
+.my-sli3 .lz__dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  width: auto;
+  background: transparent;
+}
+
+/* Dot */
+.my-sli3 .lz__dot {
+  width: 12px;
+  height: 12px;
+  background-color: #0991a0;
+  border-radius: 50%;
+}
+
+.my-sli3 .lz__dot.active {
+  background-color: #caeff3;
+  cursor: auto;
+}
+
+/* Number */
+.my-sli3 .lz__number {
+  width: 20px;
+  height: 20px;
+  background-color: #0991a0;
+  border-radius: 3px;
+  font-size: 1.4rem;
+}
+
+.my-sli3 .lz__number.active {
+  background-color: #caeff3;
+  cursor: auto;
+}

@@ -1,0 +1,18 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", serif;
+  font-size: 1.6rem;
+}
+
+button {
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
